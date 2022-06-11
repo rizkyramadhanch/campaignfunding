@@ -1,0 +1,62 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: article_management_api
+    ports:
+      - 8080:8080
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - db
+    volumes:
+      - ./config.json:/app/config.json
+
+  db:
+    image: mysql:5.7 
+    container_name: db
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      # - mysql-volume:/var/lib/mysql
+      - ./bwastartup.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=bwastartup
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=123456
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_ROOT_HOST=%
+    networks:
+      - db
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:4.7
+    restart: always
+    container_name: phpmyadmin
+    ports:
+      - 8081:80
+    networks:
+      - external-net
+      - db
+    environment:
+      PMA_HOST: db
+    depends_on:
+      - db
+
+networks:
+  external-net:
+    external:
+      name: external-net
+  db:
+    driver: bridge
+volumes:
+  mysql-volume:
+

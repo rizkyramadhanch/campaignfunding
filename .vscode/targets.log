@@ -1,0 +1,313 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun Jun 12 03:34:03 2022
+
+# Variables
+
+# environment
+ROGU_KEY_PATH = /Users/ruangguru2021/.config/gcloud/application_default_credentials.json
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CPPFLAGS = -I/usr/local/opt/llvm/include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/ruangguru2021/Documents/project/campaignfunding
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+GOOGLE_APPLICATION_CREDENTIALS = /Users/ruangguru2021/.config/gcloud/application_default_credentials.json
+# environment
+SAVEHIST = 1000000000
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2d/_9m8rkld3dn4pm43h6nn6x8r0000gp/T/vscode-ipc-e1063270-c817-4d9c-a72c-4a8fe762a70d.sock
+# environment
+VSCODE_CWD = /Users/ruangguru2021/Documents/project/campaignfunding
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/Users/ruangguru2021/Downloads/google-cloud-sdk/bin:/Users/ruangguru2021/.pyenv/shims:/Users/ruangguru2021/.poetry/bin:/Users/ruangguru2021/hawk-2.1.1:/Users/ruangguru2021/.asdf/shims:/Users/ruangguru2021/.asdf/bin:/usr/local/opt/llvm/bin:/Users/ruangguru2021/go/bin:/Users/ruangguru2021/.krew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Users/ruangguru2021/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/ruangguru2021/.cargo/bin:/Users/ruangguru2021/.fig/bin:/Users/ruangguru2021/.fzf/bin:/Users/ruangguru2021/.linkerd2/bin:/Users/ruangguru2021/flutter/bin:/Users/ruangguru2021/.nsccli/bin:/Users/ruangguru2021/.pulumi/bin:/Users/ruangguru2021/.local/bin:/Users/ruangguru2021/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/ruangguru2021/google-cloud-sdk/bin
+# environment
+VAULT_SKIP_VERIFY = true
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile
+.DEFAULT_GOAL := 
+# environment
+GOPATH = /Users/ruangguru2021/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /Users/ruangguru2021/.pyenv
+# environment
+LDFLAGS = -L/usr/local/opt/llvm/lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.4ecyB4L1HS/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+GOBIN = /Users/ruangguru2021/go/bin
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.vul7Fhah9z/org.xquartz:0
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.18.3
+# environment
+TTY = /dev/ttys006
+# environment
+HISTFILESIZE = 1000000000
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+FIG_PID = 21991
+# environment
+PWD = /Users/ruangguru2021/Documents/project/campaignfunding
+# environment
+HISTTIMEFORMAT = [%F %T]
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/ruangguru2021/go/pkg/mod
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/ruangguru2021
+# environment
+NEWTON_ENDPOINT = http://newton.rg.internal
+# environment
+NSC_HOME = /Users/ruangguru2021/.nsc
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/ruangguru2021/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = ruangguru2021
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /Users/ruangguru2021/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+HISTFILE = /Users/ruangguru2021/.zsh_history
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 2
+# environment
+FIG_TERM = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = ruangguru2021
+# environment
+FIG_TERM_VERSION = 4.4.0
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t1p0:24523C06-ECAC-4BEB-A07E-98BD1412F857
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+FIG_INTEGRATION_VERSION = 8
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/2d/_9m8rkld3dn4pm43h6nn6x8r0000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/ruangguru2021/Library/Application Support/Code/1.68.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.48859821.48859827.A304B207-473E-4E58-BDF9-6126F4E4A4E8
+# environment
+LC_TERMINAL_VERSION = 3.4.15
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GONOSUMDB = gitlab.com/ruangguru/*
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t1p0:24523C06-ECAC-4BEB-A07E-98BD1412F857
+# environment
+COLORFGBG = 7;0
+# environment
+COLORTERM = truecolor
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# environment
+RUBY_CONFIGURE_OPTS = --with-openssl-dir=/usr/local/opt/openssl@1.1
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+GOPRIVATE = gitlab.com/ruangguru/*
+# environment
+CLOUDSDK_HOME = /Users/ruangguru2021/google-cloud-sdk
+# environment
+PAGER = less
+# environment
+HIST_STAMPS = mm/dd/yyyy
+# environment
+LC_ALL = C
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 1
+# environment
+NKEYS_PATH = /Users/ruangguru2021/.nkeys
+# environment
+P9K_TTY = old
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000000000
+# environment
+ASDF_DIR = /Users/ruangguru2021/.asdf
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+GCP_AUTH_KIND = application
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+_P9K_TTY = /dev/ttys006
+# environment
+VSCODE_PID = 2010
+# environment
+VAULT_ADDR = https://vault-stag-sg-cl1.rg.internal:8200
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=10/139=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777223, inode 38900777): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 03:31:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jun 12 03:34:03 2022
+
+ 
