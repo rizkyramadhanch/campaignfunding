@@ -1,12 +1,11 @@
 package main
 
 import (
-	"campaignfunding/handler"
-	"campaignfunding/user"
 	"log"
 
 	"github.com/gin-gonic/gin"
-
+	"github.com/rizkyramadhanch/campaignfunding/handler"
+	"github.com/rizkyramadhanch/campaignfunding/user"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
