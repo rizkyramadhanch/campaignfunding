@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"campaignfunding/user"
+	"campaignfunding/handler/user"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
