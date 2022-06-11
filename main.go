@@ -1,7 +1,7 @@
 package main
 
 import (
-	"campaignfunding/handler.go"
+	"campaignfunding/handler"
 	"campaignfunding/user"
 	"log"
 
