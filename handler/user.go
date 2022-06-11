@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/rizkyramadhanch/campaignfunding/handler/user"
+	"github.com/rizkyramadhanch/campaignfunding/user"
 )
 
 type userHandler struct {
