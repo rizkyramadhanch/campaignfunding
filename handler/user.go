@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"campaignfunding/handler/user"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/rizkyramadhanch/campaignfunding/handler/user"
 )
 
 type userHandler struct {
